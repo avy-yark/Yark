@@ -51,8 +51,8 @@
   .works-note{color:var(--muted);margin:-10px 0 34px}
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:40px 28px}
   .player{position:relative;aspect-ratio:16/9;background:#1a1a1c center/cover no-repeat;border-radius:8px;
-    overflow:hidden;cursor:pointer;border:1px solid var(--line)}
-  .player::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.55))}
+    overflow:hidden;border:1px solid var(--line)}
+  
   .play{position:absolute;left:50%;top:50%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;
     background:rgba(13,13,14,.7);border:1px solid rgba(255,255,255,.45);z-index:2;transition:transform .2s}
   .play::before{content:"";position:absolute;left:25px;top:19px;border-style:solid;border-width:13px 0 13px 21px;
@@ -141,57 +141,45 @@
 <section class="works" id="works">
   <div class="wrap">
     <h2>Видеоработы</h2>
-    <p class="works-note">Ролик запускается по нажатию. Если плеер не открылся, нажмите ссылку под ним.</p>
+    <p class="works-note">Если плеер не загрузился, откройте ролик по ссылке под ним.</p>
     <div class="grid">
       <article class="card wide">
-        <div class="player" data-id="35303369-0075-4f21-aa6d-bb0effbed55b" style="background-image:url('https://edge-dallas-1.kinescopecdn.net/0b7a4893-fbbb-4f69-8b78-d7d2fa49e4f0/posters/4a79a817-4ec3-4d9f-8aeb-613715a9d363/poster_lg/01a19d12-9f12-721c-bca8-c6fcb14ebbc1.jpg')" role="button" aria-label="Смотреть: Архангельская область">
-          <span class="play"></span><span class="dur">2:51</span>
-        </div>
+        <div class="player"><iframe src="https://kinescope.io/embed/35303369-0075-4f21-aa6d-bb0effbed55b" loading="lazy" title="Архангельская область" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write" allowfullscreen></iframe></div>
         <div class="label">Имиджевый ролик · 4K</div>
         <h3>Архангельская область</h3>
         <p>Ролик к открытию Года культуры Русского Севера, который губернатор объявил в регионе на 2026 год.</p>
         <a class="direct" href="https://kinescope.io/7yWtfu5bZcuaP3rn4cB4jk" target="_blank" rel="noopener">Открыть в Kinescope →</a>
       </article>
       <article class="card">
-        <div class="player" data-id="88781ce7-61e9-4cb9-a50a-9c455c3419ae" style="background-image:url('https://edge-dallas-1.kinescopecdn.net/0b7a4893-fbbb-4f69-8b78-d7d2fa49e4f0/posters/238df65c-48a4-4ada-a60c-5997e92fa24b/poster_lg/01a19d12-abc4-76d8-a8fc-dbef0859a792.jpg')" role="button" aria-label="Смотреть: Рабочие поездки губернатора Архангельской области">
-          <span class="play"></span><span class="dur">2:35</span>
-        </div>
+        <div class="player"><iframe src="https://kinescope.io/embed/88781ce7-61e9-4cb9-a50a-9c455c3419ae" loading="lazy" title="Рабочие поездки губернатора Архангельской области" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write" allowfullscreen></iframe></div>
         <div class="label">Видео для соцсетей · 4K</div>
         <h3>Рабочие поездки губернатора Архангельской области</h3>
         <p>Ролик для социальных сетей губернатора.</p>
         <a class="direct" href="https://kinescope.io/hRprV6NPsWd935v6A6fFcU" target="_blank" rel="noopener">Открыть в Kinescope →</a>
       </article>
       <article class="card">
-        <div class="player" data-id="c399304b-52f3-4be4-a303-0b3f448c3867" style="background-image:url('https://edge-dallas-1.kinescopecdn.net/0b7a4893-fbbb-4f69-8b78-d7d2fa49e4f0/posters/9dafc28d-9fd9-4a29-86e8-a41b0aca77a9/poster_lg/01a19d11-7634-78b9-b0b9-4f6a61a89804.jpg')" role="button" aria-label="Смотреть: Мастер-скрипичник">
-          <span class="play"></span><span class="dur">1:35</span>
-        </div>
+        <div class="player"><iframe src="https://kinescope.io/embed/c399304b-52f3-4be4-a303-0b3f448c3867" loading="lazy" title="Мастер-скрипичник" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write" allowfullscreen></iframe></div>
         <div class="label">Видеосюжет · 4K</div>
         <h3>Мастер-скрипичник</h3>
         <p>Архангельский мастер Дмитрий Маклаков два с половиной года делал свою первую скрипку. В октябре 2024 года её представили публике, на ней сыграли артисты Поморской филармонии.</p>
         <a class="direct" href="https://kinescope.io/q9TMfq7q93ErNjLmKDvKNX" target="_blank" rel="noopener">Открыть в Kinescope →</a>
       </article>
       <article class="card">
-        <div class="player" data-id="b5055a0c-fd89-4b16-b502-b5246531b1be" style="background-image:url('https://edge-dallas-1.kinescopecdn.net/0b7a4893-fbbb-4f69-8b78-d7d2fa49e4f0/posters/c8676279-e391-4fad-8eba-6b870c783423/poster_lg/01a19d12-4b8f-712e-a493-5cfeb424c954.jpg')" role="button" aria-label="Смотреть: Фестиваль классической музыки памяти Дмитрия Когана">
-          <span class="play"></span><span class="dur">1:46</span>
-        </div>
+        <div class="player"><iframe src="https://kinescope.io/embed/b5055a0c-fd89-4b16-b502-b5246531b1be" loading="lazy" title="Фестиваль классической музыки памяти Дмитрия Когана" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write" allowfullscreen></iframe></div>
         <div class="label">Событийный ролик</div>
         <h3>Фестиваль классической музыки памяти Дмитрия Когана</h3>
         <p>Фестиваль проходит в Архангельске с 2019 года, в нём выступают музыканты из разных городов России. Ролик с концерта.</p>
         <a class="direct" href="https://kinescope.io/omuh2de9jeBbnjtx3rQnff" target="_blank" rel="noopener">Открыть в Kinescope →</a>
       </article>
       <article class="card">
-        <div class="player" data-id="e7973a71-9025-4eed-bbf2-5ad38d32985d" style="background-image:url('https://edge-dallas-1.kinescopecdn.net/0b7a4893-fbbb-4f69-8b78-d7d2fa49e4f0/posters/cbe084d5-9056-4ba8-af43-511392e03378/poster_lg/01a19d11-103e-7281-81b8-682c6af97b4a.jpg')" role="button" aria-label="Смотреть: «Эхо Победы»">
-          <span class="play"></span><span class="dur">5:24</span>
-        </div>
+        <div class="player"><iframe src="https://kinescope.io/embed/e7973a71-9025-4eed-bbf2-5ad38d32985d" loading="lazy" title="«Эхо Победы»" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write" allowfullscreen></iframe></div>
         <div class="label">Спецпроект</div>
         <h3>«Эхо Победы»</h3>
         <p>Спецпроект ко Дню Победы: истории жителей Архангельской области и их вклад в Победу в Великой Отечественной войне.</p>
         <a class="direct" href="https://kinescope.io/uAF3aHQMiJYDUPP7ibKfSr" target="_blank" rel="noopener">Открыть в Kinescope →</a>
       </article>
       <article class="card wide">
-        <div class="player" data-id="e89fc6d5-b0e7-4a6e-9faa-700f9a5780a0" style="background-image:url('https://edge-dallas-1.kinescopecdn.net/0b7a4893-fbbb-4f69-8b78-d7d2fa49e4f0/posters/e377eb71-7144-4eb5-8b14-b461a84e75f4/poster_lg/01a19d15-2a04-76fc-a64f-d49d0dc606ea.jpg')" role="button" aria-label="Смотреть: Подкаст, фрагмент выпуска">
-          <span class="play"></span><span class="dur">7:13</span>
-        </div>
+        <div class="player"><iframe src="https://kinescope.io/embed/e89fc6d5-b0e7-4a6e-9faa-700f9a5780a0" loading="lazy" title="Подкаст, фрагмент выпуска" allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write" allowfullscreen></iframe></div>
         <div class="label">Видеоподкаст · 4K</div>
         <h3>Подкаст, фрагмент выпуска</h3>
         <p>Первые семь минут выпуска.</p>
@@ -215,17 +203,6 @@
 
 <footer><div class="wrap">Александр, 2026. Фотографии на странице сняты автором.</div></footer>
 
-<script>
-  document.querySelectorAll('.player').forEach(function(p){
-    p.addEventListener('click',function(){
-      if(p.querySelector('iframe'))return;
-      var f=document.createElement('iframe');
-      f.src='https://kinescope.io/embed/'+p.dataset.id+'?autoplay=1';
-      f.allow='autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write';
-      f.setAttribute('allowfullscreen','');
-      p.innerHTML='';p.appendChild(f);
-    });
-  });
-</script>
+
 </body>
 </html>
